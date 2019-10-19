@@ -1,0 +1,130 @@
+.section {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.home-section {
+    background-color: #2196f3;
+}
+
+.home-container {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    scroll-padding-bottom: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.home-container > img {
+    border-radius: 50%;
+    width: 22%;
+    margin-top: 5%;
+}
+
+.skill-section, 
+.workplace-section {
+    width: 100%;
+    background-color: #bbdefb;
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+.workplace-section {
+    background-color: white;
+    color: #757575;
+}
+
+.workplace-section > h3 {
+    color: black;
+    font-weight: 600;
+}
+
+.workplace-subsection {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.skills-container {
+    padding-bottom: 5%;
+}
+
+.skills-container > h1, 
+.workplace-container > h1{
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.testimonials-section {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+.testimonials-container {
+    text-align: center;
+}
+
+.testimonials-subsection {
+    padding-top: 5%;
+}
+
+.testimonials-image > img {
+    border-radius: 50%;
+}
+.testimonials-text {
+    text-align: justify;
+    padding-top: 2%;
+}
+
+.testimonials-text >h5 {
+    color: #757575;
+}
+
+.contact-section {
+    background-color: #4caf50;
+    padding-bottom: 5%;
+}
+
+.contact-section > h1 {
+    margin-bottom: 5%;
+    margin-top: 5%;
+    color: white;
+}
+
+.contact-subsection {
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 10px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 4%;
+    padding-bottom: 5%;
+}
+
+.footer ul  li {
+    float: left;
+    color: white;
+    width: 8%;
+    margin-left: 2%;
+    list-style: none;
+}
+
+
+.footer {
+    float: left;
+    width: 100%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    background-color: #bdbdbd;
+}
+
+@media only screen and (max-width: 768px) {
+    .footer > ul > li {
+        width: 100%;
+    }
+}
